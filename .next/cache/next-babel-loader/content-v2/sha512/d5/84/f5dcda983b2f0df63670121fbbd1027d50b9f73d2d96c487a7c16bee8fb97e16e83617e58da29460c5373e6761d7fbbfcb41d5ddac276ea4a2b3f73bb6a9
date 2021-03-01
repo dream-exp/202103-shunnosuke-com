@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Layout from 'components/common/Layout';\nimport Profile from 'components/profile';\n\nconst ProfilePage = () => __jsx(Layout, {\n  title: \"About | Next.js + TypeScript Example\"\n}, __jsx(Profile, null));\n\nexport default ProfilePage;","map":null,"metadata":{},"sourceType":"module"}
