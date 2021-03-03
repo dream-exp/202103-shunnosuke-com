@@ -1,1 +1,0 @@
-{"ast":null,"code":"import worksJSON from 'data/works/index.json'; // @ts-ignore\n\nconst getWorks = (req, res) => {\n  res.json(worksJSON);\n};\n\nexport default getWorks;","map":null,"metadata":{},"sourceType":"module"}
