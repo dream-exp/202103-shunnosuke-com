@@ -81,7 +81,7 @@ const Profile = () => {
                     </div>
                 </Topics>
                 <Topics>
-                    <h3>AWARDS</h3>
+                    <h3 id="awards">AWARDS</h3>
                     <div>
                         <p className="topic_head">2012</p>
                         <p className="topic_text">山陽新幹線「新大阪〜岡山」開業40周年「新幹線の思い出写真コンテスト」優秀賞 / 特別賞</p>

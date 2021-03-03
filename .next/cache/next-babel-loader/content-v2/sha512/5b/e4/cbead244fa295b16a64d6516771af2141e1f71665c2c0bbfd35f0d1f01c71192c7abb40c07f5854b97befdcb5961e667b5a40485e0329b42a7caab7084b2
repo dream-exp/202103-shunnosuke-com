@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Layout from 'components/common/Layout';\nimport Index from 'components/index';\n\nconst IndexPage = () => __jsx(Layout, {\n  title: \"Shunnosuke Kataoka\"\n}, __jsx(Index, null));\n\nexport default IndexPage;","map":null,"metadata":{},"sourceType":"module"}
