@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import ContentsWrapper from 'components/common/ContentWrapper';
 import media from 'styled-media-query';
-// import media from 'styled-media-query';
 
 const Profile = () => {
     return(
@@ -24,18 +23,29 @@ const Profile = () => {
                     </div>
                 </ProfileGeneral>
                 <Topics>
+                    <h3>CONTACT</h3>
+                    <div>
+                        <p className="topic_head with_img">
+                            <img src="/images/mail_icon.png" className="topic_img" />
+                        </p>
+                        <p className="topic_text">
+                            dreamexp834[at]gmail.com
+                        </p>
+                    </div>
+                </Topics>
+                <Topics>
                     <h3>EDUCATIONS</h3>
                     <div>
                         <p className="topic_head">2012 - 2017</p>
-                        <p className="topic_text">徳山工業高等専門学校 情報電子工学科</p>
+                        <p className="topic_text">徳山工業高等専門学校 情報電子工学科（古賀崇了 研究室）</p>
                     </div>
                     <div>
                         <p className="topic_head">2017 - 2019</p>
-                        <p className="topic_text">徳山工業高等専門学校 専攻科 情報電子工学専攻</p>
+                        <p className="topic_text">徳山工業高等専門学校 専攻科 情報電子工学専攻（古賀崇了 研究室）</p>
                     </div>
                     <div>
                         <p className="topic_head">2019 -</p>
-                        <p className="topic_text">筑波大学大学院 図書館情報メディア研究科</p>
+                        <p className="topic_text">筑波大学大学院 図書館情報メディア研究科（落合陽一 研究室）</p>
                     </div>
                 </Topics>
                 <Topics>
@@ -100,7 +110,9 @@ const Profile = () => {
                     </div>
                     <div>
                         <p className="topic_head">2016</p>
-                        <p className="topic_text">U-22 プログラミング・コンテスト2016 経済産業省商務情報政策局長賞 / 企業賞</p>
+                        <p className="topic_text">
+                            U-22 プログラミング・コンテスト2016 経済産業省商務情報政策局長賞 / 企業賞
+                        </p>
                     </div>
                     <div>
                         <p className="topic_head">2016</p>
@@ -232,6 +244,19 @@ const Topics = styled.div`
         p {
             font-family: 'Noto Sans JP', sans-serif;
             letter-spacing: 0.15em;
+
+            a {
+                &:hover {
+                    transition: 0.3s ease;
+                    color: #cccccc;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+
+            img {
+                height: 25px;
+            }
         }
 
         ${media.lessThan("medium")`
@@ -250,10 +275,15 @@ const Topics = styled.div`
         ${media.greaterThan("medium")`
             p {
                 font-size: 13px;
+                line-height: 28px;
+            }
+
+            p.with_img {
+                display: flex;
+                align-items: center;
             }
 
             p.topic_head {
-                
                 width: 15%;
             }
 

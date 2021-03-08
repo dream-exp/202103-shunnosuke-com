@@ -35,6 +35,7 @@ const ShaperPage = () => (
             member="1名"
             responsible="企画立案から実装まで一貫して担当"
             others={<>
+                <a href="https://www.yodosha.co.jp/yodobook/book/9784758116473/">『レジデントノート』 2020年8月号 Vol.22 No.7 </a>にて、本アプリが紹介されました<br />
                 2021年2月度において、MAU 1万6千人、6万3千PVを記録
                 </>}
             

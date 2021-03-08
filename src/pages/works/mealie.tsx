@@ -37,7 +37,7 @@ const MealiePage = () => (
         />
         <WorkInfo 
             period="2016/04 - 2016/06"
-            award="U-22 プログラミング・コンテスト 2016 経済産業省商務情報政策局長賞 / スポンサー企業賞"
+            award="U-22 プログラミング・コンテスト 2016 経済産業省商務情報政策局長賞・スポンサー企業賞 / 独立行政法人国立高等専門学校機構 理事長表彰"
             technologies="Ruby on Rails / Ruby / HTML / CSS / JavaScript / jQuery"
             member="4名"
             responsible="開発リーダーとしてプロジェクトマネジメントを担当しつつ、システムの要件定義、UIデザインから、Ruby on Railsを使用したシステムの開発まで一貫して担当。"

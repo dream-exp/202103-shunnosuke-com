@@ -25,6 +25,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'NTR', 'Noto Sans JP', sans-serif;
   }
 
+  a {
+    cursor: pointer;
+  }
+
   body {
     width: 100vw;
   }
