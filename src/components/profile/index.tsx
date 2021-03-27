@@ -134,6 +134,10 @@ const Profile = () => {
                         <p className="topic_head">2018</p>
                         <p className="topic_text">石巻ハッカソン in 周南市 グランプリ</p>
                     </div>
+                    <div>
+                        <p className="topic_head">2021</p>
+                        <p className="topic_text">日本カメラ 月例フォトコンテスト 6月号 入選</p>
+                    </div>
                 </Topics>
                 <Topics>
                     <h3>PUBLICATIONS</h3>
