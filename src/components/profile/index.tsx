@@ -136,7 +136,7 @@ const Profile = () => {
                     </div>
                     <div>
                         <p className="topic_head">2021</p>
-                        <p className="topic_text">日本カメラ 月例フォトコンテスト 6月号 入選</p>
+                        <p className="topic_text">日本カメラ 月例フォトコンテスト 6月号 Webの部 入選</p>
                     </div>
                 </Topics>
                 <Topics>
