@@ -8,9 +8,9 @@ class Document extends NextDocument<Props> {
       <Html lang="ja">
         <Head />
         <body>
+          <script></script> 
           <Main />
           <NextScript />
-          <script></script> 
         </body>
       </Html>
     );
