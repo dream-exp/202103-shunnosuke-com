@@ -10,6 +10,7 @@ class Document extends NextDocument<Props> {
         <body>
           <Main />
           <NextScript />
+          <script></script> 
         </body>
       </Html>
     );
