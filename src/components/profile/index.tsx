@@ -14,8 +14,8 @@ const Profile = () => {
                         </div>
                         <p>
                         1996年、山口県山口市出身。徳山工業高等専門学校専攻科を経て、筑波大学大学院在学中。<br />
-                        高専在学中にU-22プログラミング・コンテストにて経済産業省商務情報政策局長賞を受賞。2019年より、ピクシーダストテクノロジーズ株式会社にてエンジニアとして従事し、建設現場向けアプリケーションの開発に携わる。2020年、山口県の地域・企業における課題をITを利用して解決するエンドルフィニクス合同会社を設立。<br />
-                        中学生の時から写真を趣味としており、2020年に初の個展「碧の風景」を開催。
+                        高専在学中にU-22プログラミング・コンテストにて経済産業省商務情報政策局長賞を受賞。2019年より、ピクシーダストテクノロジーズ株式会社にてエンジニアとして従事し、建設現場向けアプリケーションの開発に携わる。2020年、山口県の地域・企業における課題をITを利用して解決するエンドルフィニクス合同会社を設立。2022年、ソニーグループ株式会社R＆Dセンター入社。<br />
+                        中学生の時から写真を趣味としており、2020年に初の個展「碧の風景」を開催。2021年6月度 日本カメラ月例フォトコンテスト Webの部 入選。
                         </p>
                     </div>
                     <div className="profile_img">
@@ -44,7 +44,7 @@ const Profile = () => {
                         <p className="topic_text">徳山工業高等専門学校 専攻科 情報電子工学専攻（古賀崇了 研究室）</p>
                     </div>
                     <div>
-                        <p className="topic_head">2019 -</p>
+                        <p className="topic_head">2019 - 2022</p>
                         <p className="topic_text">筑波大学大学院 図書館情報メディア研究科（落合陽一 研究室）</p>
                     </div>
                 </Topics>
@@ -55,12 +55,16 @@ const Profile = () => {
                         <p className="topic_text">PixieDustTechnologies, Inc. (Part-Time Engineer)</p>
                     </div>
                     <div>
-                        <p className="topic_head">2020 - </p>
+                        <p className="topic_head">2020 - 2022</p>
                         <p className="topic_text">PixieDustTechnologies, Inc. (Full-Time Engineer)</p>
                     </div>
                     <div>
                         <p className="topic_head">2020 -</p>
                         <p className="topic_text">EndorphiniX, Inc. (Founder / Engineer)</p>
+                    </div>
+                    <div>
+                        <p className="topic_head">2022 -</p>
+                        <p className="topic_text">Sony Group Corporation R＆D Center (Full-Time R＆D Engineer)</p>
                     </div>
                 </Topics>
                 <Topics>
@@ -143,7 +147,7 @@ const Profile = () => {
                     <h3>PUBLICATIONS</h3>
                     <div>
                         <p className="topic_head">原著論文<br />(査読あり)</p>
-                        <p className="topic_text">Shunnosuke Kataoka, Noriaki Suetake and Takanori Koga, “Water Depth Estimation Using Measurement Distortion of Time-of-Flight Camera and Its Application to Interactive Art,” Innovative Computing, Information and Control Express Letters (ICIC Express Letters), Part B: Applications, Vol.**, No.**, 2021.** (accepted)</p>
+                        <p className="topic_text">Shunnosuke Kataoka, Noriaki Suetake and Takanori Koga, “Water Depth Estimation Using Measurement Distortion of Time-of-Flight Camera and Its Application to Interactive Art,” Innovative Computing, Information and Control Express Letters (ICIC Express Letters), Part B: Applications, Vol.12, No.7, 2021.07</p>
                     </div>
                     <div>
                         <p className="topic_head">技術研究報告<br />(査読なし)</p>
