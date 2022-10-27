@@ -6,25 +6,19 @@ const Nav = () => {
     return(
         <NavComponent>
             <Link href="/profile">
-                <a>
-                    <span>PROFILE</span>
-                </a>
+                <span>PROFILE</span>
             </Link>
             <Link href="/works">
-                <a>
-                    <span>WORKS</span>
-                </a>
+                <span>WORKS</span>
             </Link>
             {/* <Link href="#">
                 <a>
                     <span>PHOTOS</span>
                 </a>
             </Link> */}
-            <Link href="#">
-                <a href="https://photos.dream-exp.net" target="blank">
-                    <span>PHOTO BLOG</span>
-                </a>
-            </Link>
+            <a href="https://photos.dream-exp.net" target="blank">
+                <span>PHOTO BLOG</span>
+            </a>
         </NavComponent>
     );
 }

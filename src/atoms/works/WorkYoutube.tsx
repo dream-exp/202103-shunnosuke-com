@@ -11,7 +11,7 @@ const WorkYoutube = (props: WorkYoutubeProps) => {
             <YouTube 
                 videoId={props.VideoID}
                 id={"youtube_player"}
-                containerClassName={"youtube_player"}
+                className={"youtube_player"}
             />
         </WorkYoutubeComponent>
     );

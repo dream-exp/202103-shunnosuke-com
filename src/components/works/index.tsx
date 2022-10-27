@@ -90,9 +90,7 @@ const Works = () => {
                     worksAll.map(work => {
                         return(
                             <Link href={work.href} as={work.href}>
-                                <a>
-                                    <WorksEyecatch title={work.title} imgPath={work.imgPath} />
-                                </a>
+                                <WorksEyecatch title={work.title} imgPath={work.imgPath} />
                             </Link>
                         );
                     })

@@ -14,12 +14,10 @@ const Header = () => {
     return(
         <HeaderComponent path={router.pathname}>
             <Link href="/">
-                <a>
-                    <h1>
-                        SHUNNOSUKE<br />
-                        KATAOKA
-                    </h1>
-                </a>
+                <h1>
+                    SHUNNOSUKE<br />
+                    KATAOKA
+                </h1>
             </Link>
             {!isMobile &&
                 <Nav />

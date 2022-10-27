@@ -10,9 +10,7 @@ const Footer = () => {
             <span>&copy; &nbsp; 2021- &nbsp; Shunnosuke Kataoka </span>
             <span id="caution">
                 <Link href={"/terms"} as={"/terms"}>
-                    <a>
                     サイトのご利用にあたって
-                    </a>
                 </Link>
             </span>
         </FooterComponent>
