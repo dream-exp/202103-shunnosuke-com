@@ -16,7 +16,7 @@ const Nav = () => {
                     <span>PHOTOS</span>
                 </a>
             </Link> */}
-            <a href="https://photos.dream-exp.net" target="blank">
+            <a href="https://ikyo-k.com/" target="blank">
                 <span>PHOTO BLOG</span>
             </a>
         </NavComponent>
