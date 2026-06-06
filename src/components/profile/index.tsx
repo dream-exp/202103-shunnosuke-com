@@ -199,17 +199,6 @@ const Profile = () => {
           </div>
         </Topics>
         <Topics>
-          <h3>PATENTS</h3>
-          <div>
-            <p className="topic_head">特許第7578209号</p>
-            <p className="topic_text">映像生成システム、映像生成方法及び映像生成プログラム</p>
-          </div>
-          <div>
-            <p className="topic_head">特許出願等</p>
-            <p className="topic_text">情報処理装置、情報処理方法、およびプログラム</p>
-          </div>
-        </Topics>
-        <Topics>
           <h3>EXHIBITIONS</h3>
           <div>
             <p className="topic_head">2019</p>
